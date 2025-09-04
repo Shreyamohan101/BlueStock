@@ -22,7 +22,7 @@ const AuthModal = ({ isOpen, onClose, onLogin }) => {
     setError('');
     setSuccess('');
     
-    // Simulate API call delay
+    // Simulate API call delays
     await new Promise(resolve => setTimeout(resolve, 1500));
     
     try {
